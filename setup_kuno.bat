@@ -5,6 +5,13 @@ echo          Setting up Kuno Studio Environment
 echo ===================================================
 
 echo.
+echo [0/5] Cleaning up previous instances...
+taskkill /FI "WINDOWTITLE eq Kuno Backend" /T /F >nul 2>nul
+taskkill /FI "WINDOWTITLE eq Kuno Frontend" /T /F >nul 2>nul
+rem Give time for files to unlock
+timeout /t 2 /nobreak >nul
+
+echo.
 echo [1/5] Checking Prerequisites...
 where python >nul 2>nul
 if %errorlevel% neq 0 (
@@ -32,6 +39,20 @@ if exist ".git" (
 echo.
 echo [3/5] Installing Backend Dependencies...
 cd backend
+
+rem Check if venv exists and is valid (handles moved folders)
+if exist "env" (
+    call env\Scripts\activate
+    python --version >nul 2>nul
+    if errorlevel 1 (
+        echo Virtual environment appears broken (likely moved). Recreating...
+        call deactivate
+        rmdir /s /q env
+    ) else (
+        call deactivate
+    )
+)
+
 if not exist "env" (
     echo Creating virtual environment...
     python -m venv env
