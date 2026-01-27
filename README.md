@@ -21,13 +21,22 @@ Kuno Studio is a powerful, locally-hosted AI music generation application combin
 
 ## Installation
 
-### Quick Install (One Command)
-Paste this into your PowerShell terminal:
-```powershell
-git clone https://github.com/aaravsaianugula/Kuno-Studio.git; cd Kuno-Studio; .\setup_kuno.bat
-```
+## Installation
 
-### Manual Installation
+### Easiest Method (Recommended)
+1.  **Download the Installer Code:**
+    Create a new file on your computer named `install.bat`, paste the code below into it, and save.
+    
+    ```batch
+    @echo off
+    echo Installing Kuno Studio...
+    where git >nul 2>nul || (echo Git not found. Install Git first! & pause & exit /b)
+    if exist "Kuno-Studio" (cd Kuno-Studio && git pull) else (git clone https://github.com/aaravsaianugula/Kuno-Studio.git && cd Kuno-Studio)
+    call setup_kuno.bat
+    ```
+2.  **Run it:** Double-click your `install.bat`. It will do everything for you.
+
+### Manual Method
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/aaravsaianugula/Kuno-Studio.git
