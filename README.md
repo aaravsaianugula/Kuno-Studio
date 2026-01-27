@@ -27,13 +27,13 @@ Kuno Studio is a powerful, locally-hosted AI music generation application combin
     cd Kuno-Studio
     ```
 
-2.  **One-Click Setup:**
-    Double-click `setup_kuno.bat`. 
+2.  **One-Click Setup / Update:**
+    Double-click `setup_kuno.bat`. **Run this script anytime to update the app.**
     
     This script will:
-    - Create a Python virtual environment
-    - Install all backend dependencies
-    - Install all frontend dependencies
+    - **Pull the latest updates from GitHub**
+    - Create/Update the Python virtual environment
+    - Install all backend and frontend dependencies
     - **Create a Desktop Shortcut for you**
 
 ## Usage
