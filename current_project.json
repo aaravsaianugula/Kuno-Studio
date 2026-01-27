@@ -1,0 +1,44 @@
+{
+  "title": "Neon_Nights",
+  "genre": "K-Pop, City Pop, Melodic Rap, R&B, Groovy, Upbeat Melancholy",
+  "bpm": 110,
+  "duration_target": 60,
+  "structure": [
+    {
+      "type": "intro",
+      "bars": 4,
+      "text": "(Groovy Bass & Synth Intro) Yeah, let's go.",
+      "color": "bg-indigo-400"
+    },
+    {
+      "type": "verse",
+      "bars": 8,
+      "text": "Walking down the street light's low\nNobody knows where we gonna go\nFeeling the vibe, feeling the flow\nJust you and me, taking it slow",
+      "color": "bg-violet-400"
+    },
+    {
+      "type": "pre_chorus",
+      "bars": 4,
+      "text": "Heartbeat racing, can't deny\nLighting up the midnight sky",
+      "color": "bg-fuchsia-400"
+    },
+    {
+      "type": "chorus",
+      "bars": 8,
+      "text": "Party people in the place to be\nDance with me, set your spirit free\n5, 4, 3, 2, 1, let's fly\nHai yorokonde, touch the sky",
+      "color": "bg-pink-500"
+    },
+    {
+      "type": "verse",
+      "bars": 8,
+      "text": "Smooth like butter, cool like ice\nEvery moment feels so nice\nNo worries now, just roll the dice\nLiving our best life, that's the price",
+      "color": "bg-violet-400"
+    },
+    {
+      "type": "outro",
+      "bars": 4,
+      "text": "Yeah, fade away...\n(Soothing hums)\nGoodnight.",
+      "color": "bg-indigo-300"
+    }
+  ]
+}

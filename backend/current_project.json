@@ -1,0 +1,24 @@
+{
+  "title": "Test Drive",
+  "genre": "k-pop,synth-pop,energetic,confident,modern,bright-vocals",
+  "bpm": 128,
+  "duration_target": 10,
+  "structure": [
+    {
+      "type": "intro",
+      "bars": 8,
+      "text": "Hey hey hey",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "chorus",
+      "bars": 8,
+      "text": "Lights on, let's go\n\ubd88\uc744 \ucf1c (turn it up)\nWe're ready for the show",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Node.js
+node_modules/
+dist/
+.env
+.DS_Store
+coverage/
+.next/
+out/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Models and Large Files
+models/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+generated_audio/
+generated_songs/
+test_outputs/
+backend/tasks.json
