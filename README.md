@@ -27,25 +27,19 @@ Kuno Studio is a powerful, locally-hosted AI music generation application combin
     cd Kuno-Studio
     ```
 
-2.  **Backend Setup:**
-    ```bash
-    cd backend
-    python -m venv env
-    .\env\Scripts\activate
-    pip install -r requirements.txt
-    ```
-    *(Note: You may need specific versions of torch-directml depending on your hardware)*
-
-3.  **Frontend Setup:**
-    ```bash
-    cd frontend
-    npm install
-    ```
+2.  **One-Click Setup:**
+    Double-click `setup_kuno.bat`. 
+    
+    This script will:
+    - Create a Python virtual environment
+    - Install all backend dependencies
+    - Install all frontend dependencies
+    - **Create a Desktop Shortcut for you**
 
 ## Usage
 
-### Easy Start (Windows)
-Double-click the `start_kuno.bat` file in the root directory. This will launch both servers and open your web browser.
+### Easy Start
+Double-click the **Kuno Studio** shortcut on your Desktop (created by the setup script), or run `start_kuno.bat` in the folder.
 
 ### Manual Start
 **Backend:**
