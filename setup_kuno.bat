@@ -5,7 +5,7 @@ echo          Setting up Kuno Studio Environment
 echo ===================================================
 
 echo.
-echo [1/4] Checking Prerequisites...
+echo [1/5] Checking Prerequisites...
 where python >nul 2>nul
 if %errorlevel% neq 0 (
     echo Error: Python is not installed or not in PATH.
@@ -19,16 +19,26 @@ if %errorlevel% neq 0 (
     exit /b
 )
 
+
 echo.
-echo [2/4] Installing Backend Dependencies...
+echo [2/5] Checking for Updates...
+if exist ".git" (
+    echo pulling latest changes from GitHub...
+    git pull origin main
+) else (
+    echo Not a git repository. Skipping update check.
+)
+
+echo.
+echo [3/5] Installing Backend Dependencies...
 cd backend
 if not exist "env" (
     echo Creating virtual environment...
     python -m venv env
 )
 call env\Scripts\activate
-echo Installing Python packages...
-pip install -r requirements.txt
+echo Installing/Updating Python packages...
+pip install -r requirements.txt --upgrade
 if %errorlevel% neq 0 (
     echo Error installing backend requirements.
     pause
@@ -38,7 +48,7 @@ call deactivate
 cd ..
 
 echo.
-echo [3/4] Installing Frontend Dependencies...
+echo [4/5] Installing Frontend Dependencies...
 cd frontend
 call npm install
 if %errorlevel% neq 0 (
@@ -49,7 +59,7 @@ if %errorlevel% neq 0 (
 cd ..
 
 echo.
-echo [4/4] Creating Desktop Shortcut...
+echo [5/5] Creating Desktop Shortcut...
 set "TARGET=%~dp0start_kuno.bat"
 set "ICON=%~dp0frontend\public\favicon.ico"
 set "SHORTCUT=%USERPROFILE%\Desktop\Kuno Studio.lnk"
