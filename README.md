@@ -55,7 +55,8 @@ Kuno Studio is a powerful, locally-hosted AI music generation application combin
 ## Usage
 
 ### Easy Start
-Double-click the **Kuno Studio** shortcut on your Desktop (created by the setup script), or run `start_kuno.bat` in the folder.
+- **Native App:** Run `start_native.bat` (Recommended). This opens a dedicated window and manages everything.
+- **Legacy:** Double-click the **Kuno Studio** shortcut on your Desktop (created by the setup script), or run `start_kuno.bat` in the folder.
 
 ### Manual Start
 **Backend:**
@@ -67,7 +68,9 @@ python -m app.main
 **Frontend:**
 ```bash
 cd frontend
-npm run dev
+npm run dev # for browser version
+# OR
+npm run electron-dev # for native app version
 ```
 
 Visit `http://localhost:3000` to use the studio.

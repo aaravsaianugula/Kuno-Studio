@@ -1,13 +1,29 @@
 {
-  "title": "Test Drive",
-  "genre": "k-pop,synth-pop,energetic,confident,modern,bright-vocals",
-  "bpm": 128,
-  "duration_target": 10,
+  "title": "FLOAT (\ub728\ub2e4)",
+  "genre": "k-pop,r&b,groovy,dreamy,smooth,synth-bass",
+  "bpm": 108,
+  "duration_target": 195,
   "structure": [
     {
       "type": "intro",
       "bars": 8,
-      "text": "Hey hey hey",
+      "text": "Yeah yeah\n\ub728\ub2e4 \ub728\ub2e4\nWe float",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "verse",
+      "bars": 8,
+      "text": "\uc6d4\uc694\uc77c \uc544\uce68 alarm \ub610 \uc6b8\ub824\nSame routine \ub9e4\uc77c \ub3cc\uace0 \ub3cc\uc544\n\uc11c\ub958 \ub354\ubbf8 \uc18d\uc5d0 \uac07\ud78c \ub0b4 \ub9d8\nBut tonight I'm breaking out, nah\n\ucc3d\ubb38 \uc5f4\uc5b4 \ubc14\ub78c\uc774 \ubd88\uc5b4\uc640\nYour voice on the phone says \"\uc5b4\ub514\uc57c\"\nI don't need a map, don't need a plan\n\uadf8\ub0e5 \ub5a0\ub098\uc790 right now",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "pre_chorus",
+      "bars": 8,
+      "text": "\uba38\ub9ac \uc704\ub85c \ud558\ub298\uc774 \uc5f4\ub824\nFeel the weight just melt away\n\uc190\uc744 \ubed7\uc5b4 \ubcc4\uc744 \uc7a1\uc544\nNothing's gonna pull us down",
       "description": null,
       "singer_voice": null,
       "dynamic": "medium"
@@ -15,7 +31,55 @@
     {
       "type": "chorus",
       "bars": 8,
-      "text": "Lights on, let's go\n\ubd88\uc744 \ucf1c (turn it up)\nWe're ready for the show",
+      "text": "Float float \ub728\ub2e4 \ub728\ub2e4\n\uc6b0\ub9ac \ub458\uc774 \uc5b4\ub514\ub4e0 \uac00\nFloat float \ub728\ub2e4 \ub728\ub2e4\nNo pressure, no stress, just us\nFloat float \ub290\uaef4\ubd10 \uc774 \uc21c\uac04\n\ubc1c\ubc11\uc5d0 \ub545\uc774 \uc0ac\ub77c\uc838\nFloat float \ub728\ub2e4 \ub728\ub2e4\nWe're gone, we're gone tonight",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "verse",
+      "bars": 8,
+      "text": "\ub124\ube44 \uaebc destination unknown\n\ubc31\ubbf8\ub7ec \uc18d \ub3c4\uc2dc\uac00 \uba40\uc5b4\uc838\nWindows down, \ubc14\ub78c\uc744 \ub9de\uc73c\uba70\nThis feeling I just can't explain, yeah\n\uc2dc\uac04\uc774 \uba48\ucd98 \uac83 \uac19\uc544 \uc5ec\uae30\n\uc138\uc0c1\uc740 \uc800 \ubc11\uc5d0 \uc791\uc544 \ubcf4\uc5ec\nYou and me, we're somewhere new\n\uc544\ubb34\ub3c4 \ubaa8\ub974\ub294 \uc6b0\ub9ac\ub9cc\uc758 space",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "pre_chorus",
+      "bars": 8,
+      "text": "\uba38\ub9ac \uc704\ub85c \ud558\ub298\uc774 \uc5f4\ub824\nFeel the weight just melt away\n\uc190\uc744 \ubed7\uc5b4 \ubcc4\uc744 \uc7a1\uc544\nNothing's gonna hold us down",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "chorus",
+      "bars": 8,
+      "text": "Float float \ub728\ub2e4 \ub728\ub2e4\n\uc6b0\ub9ac \ub458\uc774 \uc5b4\ub514\ub4e0 \uac00\nFloat float \ub728\ub2e4 \ub728\ub2e4\nNo pressure, no stress, just us\nFloat float \ub290\uaef4\ubd10 \uc774 \uc21c\uac04\n\ubc1c\ubc11\uc5d0 \ub545\uc774 \uc0ac\ub77c\uc838\nFloat float \ub728\ub2e4 \ub728\ub2e4\nWe're gone, we're gone tonight",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "bridge",
+      "bars": 8,
+      "text": "They don't know where we are\n\uadf8\ub4e4\uc758 \uae30\ub300\ub294 \uc800 \uba40\ub9ac\nI found my peace in your eyes\n\uc5ec\uae30\uac00 \ub0b4\uac00 \uc788\uc744 \uacf3\nLet them wonder, let them wait\n\uc6b0\ub9b0 \uc774\ubbf8 \ub5a0\ub0ac\uc5b4\nNo going back, no looking down\nJust floating",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "chorus",
+      "bars": 8,
+      "text": "Float float \ub728\ub2e4 \ub728\ub2e4\n\uc6b0\ub9ac \ub458\uc774 \uc5b4\ub514\ub4e0 \uac00\nFloat float \ub728\ub2e4 \ub728\ub2e4\nNo pressure, no stress, just us\nFloat float \ub290\uaef4\ubd10 \uc774 \uc21c\uac04\n\ubc1c\ubc11\uc5d0 \ub545\uc774 \uc0ac\ub77c\uc838\nFloat float \ub728\ub2e4 \ub728\ub2e4\nWe're gone, we're gone tonight",
+      "description": null,
+      "singer_voice": null,
+      "dynamic": "medium"
+    },
+    {
+      "type": "outro",
+      "bars": 8,
+      "text": "\ub728\ub2e4 \ub728\ub2e4\nWe float, we float\n\ub728\ub2e4 \ub728\ub2e4\nYeah we gone\nGone tonight",
       "description": null,
       "singer_voice": null,
       "dynamic": "medium"
